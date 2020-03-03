@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0B48DD240D4C4300375BC6 /* ApplySectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B48DC240D4C4300375BC6 /* ApplySectionCell.swift */; };
+		7E19E4A0240541C700B94B45 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E19E49F240541C700B94B45 /* SettingsCell.swift */; };
+		7E3B3BBA23FBE90100E64B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B3BB923FBE90100E64B08 /* Main.storyboard */; };
+		7E3B3BBC23FBEFCF00E64B08 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B3BBB23FBEFCF00E64B08 /* TabBarController.swift */; };
 		7E5F224D23FACD4500F91A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F224C23FACD4500F91A67 /* AppDelegate.swift */; };
 		7E5F224F23FACD4500F91A67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F224E23FACD4500F91A67 /* SceneDelegate.swift */; };
-		7E5F225123FACD4500F91A67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F225023FACD4500F91A67 /* ViewController.swift */; };
-		7E5F225423FACD4500F91A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F225223FACD4500F91A67 /* Main.storyboard */; };
 		7E5F225623FACD4700F91A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F225523FACD4700F91A67 /* Assets.xcassets */; };
 		7E5F225923FACD4700F91A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F225723FACD4700F91A67 /* LaunchScreen.storyboard */; };
+		7E5F226123FAD23700F91A67 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F226023FAD23700F91A67 /* HomeViewController.swift */; };
+		7E5F226323FAD24F00F91A67 /* ApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F226223FAD24F00F91A67 /* ApplyViewController.swift */; };
+		7E5F226523FAD26200F91A67 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F226423FAD26200F91A67 /* SettingsViewController.swift */; };
+		7E62C29323FBD732007EE3CD /* HomeScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62C29223FBD732007EE3CD /* HomeScreen.xcassets */; };
+		7E62C29523FBDD8F007EE3CD /* ApplyScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62C29423FBDD8F007EE3CD /* ApplyScreen.xcassets */; };
+		7E62C29723FBDFCE007EE3CD /* SettingsScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62C29623FBDFCE007EE3CD /* SettingsScreen.xcassets */; };
+		7E62C29923FBE05B007EE3CD /* SchoolProfile.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E62C29823FBE05B007EE3CD /* SchoolProfile.xcassets */; };
+		7E74C1E823FD9FC9001CA8AF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E74C1E723FD9FC9001CA8AF /* Utilities.swift */; };
+		7E8690DD24041232006A0A80 /* ChangeLanguagePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8690DC24041232006A0A80 /* ChangeLanguagePopUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E0B48DC240D4C4300375BC6 /* ApplySectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplySectionCell.swift; sourceTree = "<group>"; };
+		7E19E49F240541C700B94B45 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		7E3B3BB923FBE90100E64B08 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7E3B3BBB23FBEFCF00E64B08 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7E5F224923FACD4500F91A67 /* Qorsat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qorsat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5F224C23FACD4500F91A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E5F224E23FACD4500F91A67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E5F225023FACD4500F91A67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E5F225323FACD4500F91A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E5F225523FACD4700F91A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5F225823FACD4700F91A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E5F225A23FACD4700F91A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5F226023FAD23700F91A67 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E5F226223FAD24F00F91A67 /* ApplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyViewController.swift; sourceTree = "<group>"; };
+		7E5F226423FAD26200F91A67 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7E62C29223FBD732007EE3CD /* HomeScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeScreen.xcassets; sourceTree = "<group>"; };
+		7E62C29423FBDD8F007EE3CD /* ApplyScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ApplyScreen.xcassets; sourceTree = "<group>"; };
+		7E62C29623FBDFCE007EE3CD /* SettingsScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SettingsScreen.xcassets; sourceTree = "<group>"; };
+		7E62C29823FBE05B007EE3CD /* SchoolProfile.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SchoolProfile.xcassets; sourceTree = "<group>"; };
+		7E74C1E723FD9FC9001CA8AF /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7E8690DC24041232006A0A80 /* ChangeLanguagePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguagePopUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +80,22 @@
 			children = (
 				7E5F224C23FACD4500F91A67 /* AppDelegate.swift */,
 				7E5F224E23FACD4500F91A67 /* SceneDelegate.swift */,
-				7E5F225023FACD4500F91A67 /* ViewController.swift */,
-				7E5F225223FACD4500F91A67 /* Main.storyboard */,
+				7E5F226023FAD23700F91A67 /* HomeViewController.swift */,
+				7E5F226223FAD24F00F91A67 /* ApplyViewController.swift */,
+				7E8690DC24041232006A0A80 /* ChangeLanguagePopUp.swift */,
+				7E5F226423FAD26200F91A67 /* SettingsViewController.swift */,
 				7E5F225523FACD4700F91A67 /* Assets.xcassets */,
 				7E5F225723FACD4700F91A67 /* LaunchScreen.storyboard */,
 				7E5F225A23FACD4700F91A67 /* Info.plist */,
+				7E62C29223FBD732007EE3CD /* HomeScreen.xcassets */,
+				7E62C29423FBDD8F007EE3CD /* ApplyScreen.xcassets */,
+				7E62C29623FBDFCE007EE3CD /* SettingsScreen.xcassets */,
+				7E62C29823FBE05B007EE3CD /* SchoolProfile.xcassets */,
+				7E3B3BB923FBE90100E64B08 /* Main.storyboard */,
+				7E3B3BBB23FBEFCF00E64B08 /* TabBarController.swift */,
+				7E74C1E723FD9FC9001CA8AF /* Utilities.swift */,
+				7E19E49F240541C700B94B45 /* SettingsCell.swift */,
+				7E0B48DC240D4C4300375BC6 /* ApplySectionCell.swift */,
 			);
 			path = Qorsat;
 			sourceTree = "<group>";
@@ -125,9 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3B3BBA23FBE90100E64B08 /* Main.storyboard in Resources */,
 				7E5F225923FACD4700F91A67 /* LaunchScreen.storyboard in Resources */,
+				7E62C29323FBD732007EE3CD /* HomeScreen.xcassets in Resources */,
+				7E62C29523FBDD8F007EE3CD /* ApplyScreen.xcassets in Resources */,
+				7E62C29723FBDFCE007EE3CD /* SettingsScreen.xcassets in Resources */,
 				7E5F225623FACD4700F91A67 /* Assets.xcassets in Resources */,
-				7E5F225423FACD4500F91A67 /* Main.storyboard in Resources */,
+				7E62C29923FBE05B007EE3CD /* SchoolProfile.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +175,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5F225123FACD4500F91A67 /* ViewController.swift in Sources */,
 				7E5F224D23FACD4500F91A67 /* AppDelegate.swift in Sources */,
+				7E5F226323FAD24F00F91A67 /* ApplyViewController.swift in Sources */,
+				7E19E4A0240541C700B94B45 /* SettingsCell.swift in Sources */,
+				7E8690DD24041232006A0A80 /* ChangeLanguagePopUp.swift in Sources */,
+				7E0B48DD240D4C4300375BC6 /* ApplySectionCell.swift in Sources */,
+				7E74C1E823FD9FC9001CA8AF /* Utilities.swift in Sources */,
 				7E5F224F23FACD4500F91A67 /* SceneDelegate.swift in Sources */,
+				7E3B3BBC23FBEFCF00E64B08 /* TabBarController.swift in Sources */,
+				7E5F226123FAD23700F91A67 /* HomeViewController.swift in Sources */,
+				7E5F226523FAD26200F91A67 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7E5F225223FACD4500F91A67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E5F225323FACD4500F91A67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E5F225723FACD4700F91A67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ahsan.Qorsat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ahsan.Qorsat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
